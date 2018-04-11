@@ -60,7 +60,7 @@ public class Persona {
 					}
 					
 				} catch (ArrayIndexOutOfBoundsException | NumberFormatException ex) {
-					AplicacionException aex = new AplicacionException("Error en el formato d elos datos den la bbdd", ex);
+					AplicacionException aex = new AplicacionException("Error en el formato de los datos en la base de datos", ex);
 					throw aex;
 				}
 
@@ -76,13 +76,13 @@ public class Persona {
 			try {
 				fr.close();
 				br.close();
-			} catch (IOException e) {
+			} catch (IOException | NullPointerException e) {
 				;
 			}
 		}
 		
 		
 		
-		return null;
+		throw new PersonaInexisenteException();
 	}
 }

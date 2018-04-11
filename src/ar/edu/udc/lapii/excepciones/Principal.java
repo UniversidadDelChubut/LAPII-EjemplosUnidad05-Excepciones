@@ -4,7 +4,6 @@ public class Principal {
 
 	public static void main(String[] args) {
 	
-		/*
 		Persona p = new Persona();
 		try {
 			
@@ -15,8 +14,9 @@ public class Principal {
 		} catch (NumeroDocumentoInvalidoException | NombreInvalidoException  ex) {
 			System.err.println(ex.getMessage());
 		}
-		*/
 		
+		
+		/*
 		try {
 			Persona p = Persona.getPersona(25230298);
 			
@@ -25,12 +25,7 @@ public class Principal {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
-		
-		
-		
-		
-		
-		
+		*/
 		
 		
 	}
