@@ -36,7 +36,7 @@ public class Persona {
 	
 	
 	
-	public static Persona getPersona(int numeroDocumento) throws PersonaInexisenteException, AplicacionException {
+	public static Persona getPersona(int numeroDocumento) throws PersonaInexistenteException, AplicacionException {
 		File file = new File("personas.txt");
 		FileReader fr = null;
 		BufferedReader br = null;
@@ -83,6 +83,6 @@ public class Persona {
 		
 		
 		
-		throw new PersonaInexisenteException();
+		throw new PersonaInexistenteException();
 	}
 }
