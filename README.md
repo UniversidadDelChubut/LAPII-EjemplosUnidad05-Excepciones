@@ -1,2 +1,2 @@
-# LAPII-EjemplosUnidad07-Excepciones
-Laboratorio Avanzado de Programación - Ejemplos Unidad 7 - Excepciones
+# LAPII-EjemplosUnidad05-Excepciones
+Laboratorio Avanzado de Programación - Ejemplos Unidad 5 - Excepciones
